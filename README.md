@@ -19,3 +19,19 @@ $ nvm install --lts
 ```sh
 $ node --version
 ```
+Instalando Java Development Kit (JDK)
+
+```sh
+$ sudo apt install -y openjdk-8-jdk-headless openjdk-8-jre
+```
+
+Instalando Homebrew en Ubuntu
+```sh
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+Instalando Watchman
+```sh
+brew install --HEAD watchman
+```
+Instalando [Android Studio](https://developer.android.com/studio)
