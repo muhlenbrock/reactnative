@@ -1,7 +1,7 @@
 # Tutorial react-native, Ubuntu
-### Configurando ambiente de desarrollo Ubuntu 20.04
+## Configurando ambiente de desarrollo Ubuntu 20.04
 
-## Instalando [Node.js](https://nodejs.org/).
+### Instalando [Node.js](https://nodejs.org/).
 
   - Primero abriremos la terminal e instalaremos nvm.
 
@@ -19,13 +19,13 @@ $ nvm install --lts
 ```sh
 $ node --version
 ```
-## Instalando Java Development Kit (JDK)
+### Instalando Java Development Kit (JDK)
 
 ```sh
 $ sudo apt install -y openjdk-8-jdk-headless openjdk-8-jre
 ```
 
-## Instalando [Homebrew](https://docs.brew.sh/Homebrew-on-Linux) en Ubuntu
+### Instalando [Homebrew](https://docs.brew.sh/Homebrew-on-Linux) en Ubuntu
  - Requisitos ubuntu
  ```sh
 $ sudo apt-get install build-essential curl file git
@@ -35,8 +35,8 @@ $ sudo apt-get install build-essential curl file git
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-## Instalando Watchman
+### Instalando Watchman
 ```sh
 brew install --HEAD watchman
 ```
-## Instalando [Android Studio](https://developer.android.com/studio)
+### Instalando [Android Studio](https://developer.android.com/studio)
