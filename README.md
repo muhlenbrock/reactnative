@@ -25,7 +25,7 @@ $ node --version
 $ sudo apt install -y openjdk-8-jdk-headless openjdk-8-jre
 ```
 
-## Instalando Homebrew en Ubuntu
+## Instalando [Homebrew](https://docs.brew.sh/Homebrew-on-Linux) en Ubuntu
 ```sh
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
