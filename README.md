@@ -26,6 +26,11 @@ $ sudo apt install -y openjdk-8-jdk-headless openjdk-8-jre
 ```
 
 ## Instalando [Homebrew](https://docs.brew.sh/Homebrew-on-Linux) en Ubuntu
+ - Requisitos ubuntu
+ ```sh
+$ sudo apt-get install build-essential curl file git
+```
+ - Luego instalamos Homebrew
 ```sh
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
