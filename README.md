@@ -34,6 +34,8 @@ $ sudo apt-get install build-essential curl file git
 ```sh
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
+ - Revisar mensajes de la instalación
+ ![Image of Homebrew](https://github.com/muhlenbrock/reactnative/raw/master/next.png)
 
 ### Instalando Watchman
 ```sh
