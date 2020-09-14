@@ -34,9 +34,25 @@ $ sudo apt-get install build-essential curl file git
 ```sh
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
+ - Revisar mensajes de la instalación
+ ![Image of Homebrew](https://github.com/muhlenbrock/reactnative/raw/master/next.png)
 
 ### Instalando Watchman
 ```sh
-brew install --HEAD watchman
+$ brew install --HEAD watchman
 ```
 ### Instalando [Android Studio](https://developer.android.com/studio)
+```sh
+$ sudo snap install android-studio --classic
+```
+ - Luego de deben actualizar las rutas de Android, con el path que aparece en Android Studio, en mi caso (/home/rick/Android/Sdk)
+```sh
+$ echo "
+# Android PATHs
+export ANDROID_HOME="/home/rick/Android/Sdk"
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+" >> ${HOME}/.bashrc
+```
